@@ -1,0 +1,30 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* align from top */
+  background: #f4f4f4;       /* remove black */
+}
+
+.app-container {
+  width: 100%;
+  max-width: 350px;   /* smaller box */
+  background: white;
+  padding: 20px;
+  margin-top: 40px;   /* push down from top */
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.overview-box {
+  width: 20%;             /* slightly smaller than container */
+  max-width: 300px;       /* set a limit */
+  margin: 20px auto;      /* keep it centered inside */
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
